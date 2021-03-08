@@ -10,12 +10,13 @@ let person2 = person;
 
 person.firstName = 'Arya';
 
-console.log(person2.firstName); // output
-console.log(person.firstName); // output
-console.log(person.lastName); // output
-console.log(person == person2); // output
-console.log(person === person2); // output
+console.log(person2.firstName); // john 
+console.log(person.firstName); // john
+console.log(person.lastName); // doe
+console.log(person == person2); // true
+console.log(person === person2); // true
 console.log(person.lastName === person2.lastName); // output
+doe=
 ```
 
 2. Write the output with reason:
@@ -85,7 +86,8 @@ console.log(person.address.city == personTwo.address.city); // output
 4. Clone the `blogs` variable into a new variable named `clonedBlogs`
 
 ```js
-let blogs = [
+blogs=clonesBlogs
+let clonedblogs = [
   {
     id: 1,
     title: 'Post #1',
@@ -109,6 +111,7 @@ let blogs = [
 5. Clone the `question` variable into a new variable named `questionClone`
 
 ```js
+let questions=questionClone
 var questions = [
   {
     prompt: 'Why is the sky blue?',
@@ -193,10 +196,31 @@ let person = [
 
 8. Write a function named `cloneObject` that accepts an object and returns the clone of the object
 
-```js
-function cloneObject() {
-  // your code
+
+function cloneObject(obj){
+
+let source={...obj}
+  // Object.assign(obj,source)//
+
+
+return source
 }
+
+```js
+
+
+function cloneObject() {
+  function cloneObject(obj){
+
+let source={...obj}
+  // Object.assign(obj,source)//
+
+
+return source
+}
+
+```js
+  
 
 // Run the test below to check your function
 
