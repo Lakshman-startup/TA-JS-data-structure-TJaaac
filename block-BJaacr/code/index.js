@@ -6,7 +6,7 @@ Only when you don't get it by yourself, comeback again and read the hint
 
 // Write code for the following problems:
 console.log(got);
-
+print
 // You have access to a variable named `got`. Which comes from `data.js` file
 
 /*
